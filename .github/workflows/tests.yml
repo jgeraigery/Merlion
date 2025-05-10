@@ -37,7 +37,7 @@ jobs:
 
     - name: Test with pytest
       id: test
-      uses: nick-fields/retry@v2
+      uses: nick-fields/retry@v3
       env:
         PYTHON_VERSION: ${{ matrix.python-version }}
       with:
